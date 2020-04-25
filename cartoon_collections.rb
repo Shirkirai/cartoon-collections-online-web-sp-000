@@ -1,6 +1,7 @@
 def roll_call_dwarves(dwarve_list)# code an argument here
   dwarve_list.each do |index, dwarve|
     puts "#{index}. #{dwarve}"
+  end
 end
 
 def summon_captain_planet# code an argument here
