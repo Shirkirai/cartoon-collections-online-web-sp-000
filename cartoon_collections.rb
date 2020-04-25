@@ -22,8 +22,5 @@ end
 
 def find_the_cheese(cheddar_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if cheese_types.select{|i| i.include?(cheddar_cheese)}
-  else
-    false
-  end
+  cheese_types.select{|i| i.include?(cheddar_cheese)}
 end
