@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarve_list)# code an argument here
-  i = 0
+  i = 1
   dwarve_list.each do |dwarve|
     puts "#{i}. #{dwarve}"
     i += 1
