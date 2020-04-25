@@ -10,6 +10,7 @@ def summon_captain_planet(veggies)
   veggies.collect do |veggies|
     puts "#{veggies}!"
   end
+  return veggies
 end
 
 def long_planeteer_calls# code an argument here
