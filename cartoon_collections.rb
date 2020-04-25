@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(veggies)
   veggies.collect do |veggies|
-    puts "#{veggies}.first.upcase!"
+    puts "#{veggies}.titleize!"
   end
   veggies
 end
