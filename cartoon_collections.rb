@@ -8,7 +8,8 @@ end
 
 def summon_captain_planet(veggies)
   veggies.collect do |veggies|
-    # Your code here
+    puts "#{veggies}!"
+  end# Your code here
 end
 
 def long_planeteer_calls# code an argument here
