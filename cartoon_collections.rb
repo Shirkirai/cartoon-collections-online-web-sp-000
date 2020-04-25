@@ -11,7 +11,7 @@ def summon_captain_planet(veggies)
   veggies.collect do |veggies|
     array << "#{veggies}.titleize!"
   end
-  veggies
+  array
 end
 
 def long_planeteer_calls# code an argument here
