@@ -26,4 +26,5 @@ def find_the_cheese(cheddar_cheese)
     return cheese_types.select(chedder_cheese)
   else
     nil
+  end
 end
