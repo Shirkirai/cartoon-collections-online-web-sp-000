@@ -8,8 +8,8 @@ end
 
 def summon_captain_planet(veggies)
   array = []
-  veggies.collect do |veggies|
-    array << "#{veggies}.titleize!"
+  veggies.collect do |veggies.titleize|
+    array << "#{veggies}!"
   end
   array
 end
