@@ -7,7 +7,6 @@ def roll_call_dwarves(dwarve_list)# code an argument here
 end
 
 def summon_captain_planet(veggies)
-  array = []
   veggies.collect do |veggies|
     puts "#{veggies}.first.upcase!"
   end
