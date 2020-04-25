@@ -13,7 +13,7 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(call)# code an argument here
-  if call.any?.length > 4
+  if call.any? {|i| i > 4}
     return true
   else
     return false
