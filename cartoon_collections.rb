@@ -7,7 +7,8 @@ def roll_call_dwarves(dwarve_list)# code an argument here
 end
 
 def summon_captain_planet(veggies)
-  # Your code here
+  veggies.collect do |veggies|
+    # Your code here
 end
 
 def long_planeteer_calls# code an argument here
