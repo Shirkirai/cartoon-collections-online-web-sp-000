@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(veggies)
   veggies.collect do |veg|
-    return veg.capitalize + "!"
+    veg.capitalize + "!"
   end
 end
 
